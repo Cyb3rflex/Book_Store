@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/booklogo.jfif" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">B(o)kStore</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="carti.html">Categories</a></li>
+            <li><a href="bestseller.html">Bestsellers</a></li>
+            <li><a href="newarrival.html">New Arrivals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <!-- Navbar Section -->
+<div class="nav-icons nav-links">
+    <a href="#" class="search-icon">🔍</a>
+    <a href="#" class="cart-icon">🛒</a>
+    <img src="images/1000561296.jpg" alt="user" class="user-icon" onclick="toggleMenu()">
+</div>
+
+<!-- Dropdown Menu Section -->
+<div class="dropdown-menu" id="dropdownMenu">
+    <!-- Menu Section -->
+    <div class="menu-dialog">
+        <div class="menu-item">
+            <ion-icon  name="person-outline"></ion-icon>
+            <a href="profilepage.html">My Profile</a>
+        </div>
+        <div class="menu-item">
+            <ion-icon name="settings-outline"></ion-icon>
+            <a href="#">Global Settings</a>
+        </div>
+        <div class="menu-item">
+            <ion-icon class="i" name="code-working-outline"></ion-icon>
+            <a href="#">Products</a>
+        </div>
+        <div class="menu-item">
+            <ion-icon name="log-out-outline"></ion-icon>
+            <a href="logout.html">Logout</a>
+        </div>
+    </div>
+
+    <!-- Team Members Section -->
+    <span class="title">Team Members</span>
+    <div class="members-list">
+        <div class="member-item">
+            <img src="images/1000561302.jpg" alt="">
+            <div class="menu-item_info">
+                <span class="name">John Doe</span>
+                <span class="email">john.doe@example.com</span>
+            </div>
+        </div>
+        <div class="member-item">
+            <img src="images/1000561303.jpg" alt="">
+            <div class="menu-item_info">
+                <span class="name">Mary Jane</span>
+                <span class="email">mary.jane@example.com</span>
+            </div>
+        </div>
+        <div class="member-item">
+            <img src="images/1000561295.jpg" alt="">
+            <div class="menu-item_info">
+                <span class="name">Mira Frey</span>
+                <span class="email">mira.frey@example.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <button class="nav-toggle">
+            ☰
+        </button>
+    </nav>
+
+    
+
+    <!-- HEADER SECTION  -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Discover Your Next Great Read</h1>
+            <p>Explore a world of stories with a wide range of genres for every reader.</p>
+            <a href="carti.html" class="btn">Browse Collections</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p class="about-description">
+                Welcome to our bookstore, where every page holds an adventure. Our mission is to connect readers with stories that inspire, entertain, and educate. Whether you're seeking a new favorite novel, a rare find, or a cozy place to browse, we're here to help.
+            </p>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="material-icons">book</i>
+                    <h3>Wide Selection of Books</h3>
+                    <p>From fiction to non-fiction, we've got books for every type of reader.</p>
+                </div>
+                <div class="feature">
+                    <i class="material-icons">people</i>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your books delivered to your doorstep in no time.</p>
+                </div>
+                <div class="feature">
+                    <i class="material-icons">public</i>
+                    <h3>Best Prices</h3>
+                    <p>Enjoy competitive pricing on all our collections.</p>
+                </div>
+                <div class="feature">
+                    <i class="material-icons">people</i>
+                    <h3>Customer Support</h3>
+                    <p>We’re always here to assist you with any questions or issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Shop with Us?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="feature-icon">📚</i>
+                    <h3>Wide Selection of Books</h3>
+                    <p>From fiction to non-fiction, we provide books that cater to every type of reader.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="feature-icon">🚚</i>
+                    <h3>Fast Delivery</h3>
+                    <p>Enjoy fast and reliable delivery service for all your orders.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="feature-icon">💰</i>
+                    <h3>Best Prices</h3>
+                    <p>We offer competitive pricing and deals that ensure you get the best value.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="feature-icon">📞</i>
+                    <h3>Customer Support</h3>
+                    <p>Our friendly support team is here to help with any questions or concerns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="container">
+            <h2>Explore by Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="./images/feature1.png" alt="Fiction" class="category-img">
+                    <h3>Fiction</h3>
+                    <p>Discover the latest and best-selling fiction books.</p>
+                </div>
+                <div class="category-item">
+                    <img src="./images/nonfiction.webp" alt="Non-fiction" class="category-img">
+                    <h3>Non-fiction</h3>
+                    <p>Explore true stories, biographies, and educational books.</p>
+                </div>
+                <div class="category-item">
+                    <img src="./images/child.avif" alt="Children's Books" class="category-img">
+                    <h3>Children's Books</h3>
+                    <p>Find captivating and educational books for kids.</p>
+                </div>
+                <div class="category-item">
+                    <img src="./images/science.webp" alt="Science Fiction" class="category-img">
+                    <h3>Science Fiction</h3>
+                    <p>Dive into futuristic worlds and imaginative adventures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BESTSELLER SECTION -->
+    <section class="bestsellers">
+        <div class="container">
+            <h2>Popular Books</h2>
+            <div class="bestsellers-grid">
+                <div class="bestseller-item">
+                    <img src="./images/life1.avif" alt="Book Title 1" class="bestseller-img">
+                    <h3>Book Title 1</h3>
+                    <p class="author">by Author 1</p>
+                    <p class="description">A short description of the book that catches the reader's attention.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life2.avif" alt="Book Title 2" class="bestseller-img">
+                    <h3>Book Title 2</h3>
+                    <p class="author">by Author 2</p>
+                    <p class="description">A short description of the book that gives insight into the storyline.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life3.avif" alt="Book Title 3" class="bestseller-img">
+                    <h3>Book Title 3</h3>
+                    <p class="author">by Author 3</p>
+                    <p class="description">An engaging description to entice readers to check out the book.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life4.avif" alt="Book Title 4" class="bestseller-img">
+                    <h3>Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A gripping book description for the best-selling book.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life5.webp" alt="Book Title 4" class="bestseller-img">
+                    <h3>Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A gripping book description for the best-selling book.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life6.webp" alt="Book Title 4" class="bestseller-img">
+                    <h3>Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A gripping book description for the best-selling book.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life7.webp" alt="Book Title 4" class="bestseller-img">
+                    <h3>Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A gripping book description for the best-selling book.</p>
+                </div>
+                <div class="bestseller-item">
+                    <img src="./images/life8.webp" alt="Book Title 4" class="bestseller-img">
+                    <h3>Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A gripping book description for the best-selling book.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW ARRRIVAL SECTION -->
+    <section class="new-arrivals">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="arrivals-grid">
+                <div class="arrival-item">
+                    <img src="./images/idea1.avif" alt="New Book Title 1" class="arrival-img">
+                    <h3>New Book Title 1</h3>
+                    <p class="author">by Author 1</p>
+                    <p class="description">A short description of the newly released book that grabs attention.</p>
+                </div>
+                <div class="arrival-item">
+                    <img src="./images/idea2.avif" alt="New Book Title 2" class="arrival-img">
+                    <h3>New Book Title 2</h3>
+                    <p class="author">by Author 2</p>
+                    <p class="description">A captivating description of the new release.</p>
+                </div>
+                <div class="arrival-item">
+                    <img src="./images/idea3.avif" alt="New Book Title 3" class="arrival-img">
+                    <h3>New Book Title 3</h3>
+                    <p class="author">by Author 3</p>
+                    <p class="description">A brief overview of the book’s plot and highlights.</p>
+                </div>
+                <div class="arrival-item">
+                    <img src="./images/idea5.avif" alt="New Book Title 4" class="arrival-img">
+                    <h3>New Book Title 4</h3>
+                    <p class="author">by Author 4</p>
+                    <p class="description">A thrilling description of the latest release.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMANIAL -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="carousel-container">
+                <div class="testimonial-item active">
+                    <div class="customer-info">
+                        <img src="./images/1000561295.jpg" alt="Customer 1" class="customer-img">
+                        <h3>Jane Doe</h3>
+                        <p class="customer-title">Avid Reader</p>
+                    </div>
+                    <p class="testimonial-text">"This bookstore has an amazing collection of books, and the service is top-notch!"</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"I found exactly what I was looking for. The staff is so helpful and the website is easy to use!"</p>
+                    <div class="customer-info">
+                        <img src="./images/1000561296.jpg" alt="Customer 2" class="customer-img">
+                        <h3>John Smith</h3>
+                        <p class="customer-title">Book Lover</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="customer-info">
+                        <img src="./images/1000561297.jpg" alt="Customer 3" class="customer-img">
+                        <h3>Emily Johnson</h3>
+                        <p class="customer-title">Frequent Buyer</p>
+                    </div>
+                    <p class="testimonial-text">"Fast delivery and great prices! I’ll definitely shop here again."</p>
+                </div>
+            </div>
+            <button id="prev-btn" class="carousel-btn"><ion-icon name="arrow-back-circle-outline"></ion-icon></button>
+            <button id="next-btn" class="carousel-btn"><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <div class="container">
+            <i class="material-icons">people</i>
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates and special offers directly to your inbox.</p>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h2>About Us</h2>
+                    <p>We are a leading bookstore offering a wide range of books across genres. Discover your next great read with us!</p>
+                </div>
+                <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="carti.html">Categories</a></li>
+                        <li><a href="bestseller.html">Bestsellers</a></li>
+                        <li><a href="newarrival.html">New Arrivals</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: <a href="mailto:info@bookstore.com">info@bookstore.com</a></p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bookstore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    if (dropdownMenu.style.display === 'block') {
+        dropdownMenu.style.display = 'none';
+    } else {
+        // Hide all other dropdown menus if any
+        document.querySelectorAll('.dropdown-menu').forEach(menu => {
+            menu.style.display = 'none';
+        });
+        dropdownMenu.style.display = 'block';
+    }
+}
+
+// Close the dropdown when clicking outside of it
+document.addEventListener('click', function(event) {
+    const isClickInside = event.target.closest('.nav-icons');
+    if (!isClickInside) {
+        document.querySelectorAll('.dropdown-menu').forEach(menu => {
+            menu.style.display = 'none';
+        });
+    }
+});
+    </script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

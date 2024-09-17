@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartigories - Bookstore</title>
+    <link rel="stylesheet" href="carti.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">B(o)kStore</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="carti.html">Categories</a></li>
+            <li><a href="bestseller.html">Bestsellers</a></li>
+            <li><a href="newarrival.html">New Arrivals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="nav-icons nav-links">
+            <a href="#" class="search-icon">🔍</a>
+            <a href="#" class="cart-icon">🛒</a>
+        </div>
+        <button class="nav-toggle">
+            ☰
+        </button>
+    </nav>
+
+
+
+
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        body {
+          font-family: 'Montserrat', sans-serif;
+          background-color: #ffcc80;
+          color: #333;
+        }
+    
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 40px 20px;
+        }
+    
+        .categories-header {
+          text-align: center;
+          margin-bottom: 50px;
+        }
+    
+        .categories-header h1 {
+          font-size: 36px;
+          font-weight: 600;
+          color: #3e2723;
+        }
+    
+        .categories-header p {
+          font-size: 16px;
+          color: #777;
+          margin-top: 10px;
+        }
+    
+        .categories-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 40px;
+        }
+    
+        .category-card {
+          background-color: #3e2723;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          transition: transform 0.3s ease;
+        }
+    
+        .category-card:hover {
+          transform: translateY(-10px);
+        }
+    
+        .category-card img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+    
+        .category-card .content {
+          padding: 20px;
+          text-align: center;
+        }
+    
+        .category-card h3 {
+          font-size: 22px;
+          color: #ffcc80;
+          margin-bottom: 10px;
+        }
+    
+        .category-card p {
+          font-size: 14px;
+          color: #ddd;
+        }
+    
+        .cta-section {
+          text-align: center;
+          margin-top: 50px;
+        }
+    
+        .cta-section h2 {
+          font-size: 28px;
+          color: #3e2723;
+          margin-bottom: 20px;
+        }
+    
+        .cta-section button {
+          padding: 15px 30px;
+          background-color: #3e2723;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+    
+        .cta-section button:hover {
+          background-color: #ffcc80;
+          color: #333;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <div class="container">
+        <!-- Header Section -->
+        <div class="categories-header">
+          <h1>Our Categories</h1>
+          <p>Explore the wide range of categories we offer. Find what interests you the most.</p>
+        </div>
+    
+        <!-- Categories Grid Section -->
+        <div class="categories-grid">
+          <!-- Category Card 1 -->
+          <div class="category-card">
+            <img src="images/life8.webp" alt="Category 1">
+            <div class="content">
+              <h3>Category 1</h3>
+              <p>Short description of Category 1 goes here. Discover more in this section.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 2 -->
+          <div class="category-card">
+            <img src="images/life6.webp" alt="Category 2">
+            <div class="content">
+              <h3>Category 2</h3>
+              <p>Short description of Category 2 goes here. Explore our collection now.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 3 -->
+          <div class="category-card">
+            <img src="images/life5.webp" alt="Category 3">
+            <div class="content">
+              <h3>Category 3</h3>
+              <p>Short description of Category 3 goes here. Find the best in this category.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 4 -->
+          <div class="category-card">
+            <img src="images/idea3.avif" alt="Category 4">
+            <div class="content">
+              <h3>Category 4</h3>
+              <p>Short description of Category 4 goes here. Browse through our range.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 5 -->
+          <div class="category-card">
+            <img src="images/science.webp" alt="Category 5">
+            <div class="content">
+              <h3>Category 5</h3>
+              <p>Discover more about Category 5 here. Exclusive products await.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 6 -->
+          <div class="category-card">
+            <img src="images/store.avif" alt="Category 6">
+            <div class="content">
+              <h3>Category 6</h3>
+              <p>Short description of Category 6 goes here. Dive into our latest offerings.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 7 -->
+          <div class="category-card">
+            <img src="images/life4.avif" alt="Category 7">
+            <div class="content">
+              <h3>Category 7</h3>
+              <p>Short description of Category 7 goes here. Find top picks and recommendations.</p>
+            </div>
+          </div>
+    
+          <!-- Category Card 8 -->
+          <div class="category-card">
+            <img src="images/life1.avif" alt="Category 8">
+            <div class="content">
+              <h3>Category 8</h3>
+              <p>Explore Category 8. A diverse range of products for everyone.</p>
+            </div>
+          </div>
+          <!-- Category Card 8 -->
+          <div class="category-card">
+            <img src="images/life2.avif" alt="Category 8">
+            <div class="content">
+              <h3>Category 8</h3>
+              <p>Explore Category 8. A diverse range of products for everyone.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Call to Action Section -->
+        <div class="cta-section">
+          <h2>Can't find what you're looking for?</h2>
+          <button>Explore More</button>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <h1>Expandable Image Gallery</h1>
+        <div class="gallery">
+            <div class="img-box" style="background-image: url('images/img2.jpg');">
+                <h2>Lake View</h2>
+            </div>
+            <div class="img-box" style="background-image: url('images/img3.jpg');">
+                <h2>Fall</h2>
+            </div>
+            <div class="img-box" style="background-image: url('images/img11.jpg');">
+                <h2>Summer</h2>
+            </div>
+            <div class="img-box" style="background-image: url('images/img4.jpg');">
+                <h2>Monsoon</h2>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h2>About Us</h2>
+                    <p>We are a leading bookstore offering a wide range of books across genres. Discover your next great read with us!</p>
+                </div>
+                <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="carti.html">Categories</a></li>
+                        <li><a href="bestseller.html">Bestsellers</a></li>
+                        <li><a href="newarrival.html">New Arrivals</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: <a href="mailto:info@bookstore.com">info@bookstore.com</a></p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bookstore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
