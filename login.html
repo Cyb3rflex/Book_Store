@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="login.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="forms-container">
+          <div class="signin-signup">
+            <form action="#" class="sign-in-form" id="loginForm">
+              <h2 class="title">Sign in</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" id="loginUsername" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" id="loginPassword" />
+              </div>
+              <input type="submit" value="Login" class="btn solid" />
+              <p class="social-text">Or Sign in with social platforms</p>
+              <div class="social-media">
+                <!-- Social media icons -->
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </form>
+      
+            <form action="#" class="sign-up-form" id="signupForm">
+              <h2 class="title">Sign up</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" id="signupUsername" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" id="signupEmail" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" id="signupPassword" />
+              </div>
+              <input type="submit" class="btn" value="Sign up" />
+              <p class="social-text">Or Sign up with social platforms</p>
+              <div class="social-media">
+                <!-- Social media icons -->
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      
+        <div class="panels-container">
+          <!-- Panel Content -->
+          <div class="panel left-panel">
+            <div class="content">
+              <h3>New here ?</h3>
+              <p>
+                Join us today to unlock exclusive features and stay connected with the latest updates. Creating an account is quick and easy!
+              </p>
+              <button class="btn transparent" id="sign-up-btn">
+                Sign up
+              </button>
+            </div>
+            <img src="images/log.svg" class="image" alt="" />
+          </div>
+          <div class="panel right-panel">
+            <div class="content">
+              <h3>One of us ?</h3>
+              <p>
+                Welcome back! Log in to continue accessing your account and stay updated with your personalized content.
+              </p>
+              <button class="btn transparent" id="sign-in-btn">
+                Sign in
+              </button>
+            </div>
+            <img src="images/register.svg" class="image" alt="" />
+          </div>
+         </div>
+        </div>
+      </div>
+      
+    <!-- <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+              ex ratione. Aliquid!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+
+    
+      
+
+
+
+    <script>
+  const sign_in_btn = document.querySelector("#sign-in-btn");
+  const sign_up_btn = document.querySelector("#sign-up-btn");
+  const container = document.querySelector(".container");
+  const signupForm = document.querySelector("#signupForm");
+  const loginForm = document.querySelector("#loginForm");
+
+  // Handle Sign-up Form Submission
+  signupForm.addEventListener("submit", (e) => {
+    e.preventDefault(); // Prevent form from submitting normally
+
+    // Simulate a signup process (you can add real backend functionality here)
+    const username = document.querySelector("#signupUsername").value;
+    const email = document.querySelector("#signupEmail").value;
+    const password = document.querySelector("#signupPassword").value;
+
+    // Check if all fields are filled (simple validation)
+    if (username && email && password) {
+      console.log("User signed up with:", { username, email, password });
+
+      // Redirect to the landing page after successful signup
+      setTimeout(() => {
+        window.location.href = "index.html"; // Replace with the actual landing page URL
+      }, 1000); // Optional delay for UX
+    } else {
+      alert("Please fill all fields!");
+    }
+  });
+
+  // Handle Login Form Submission
+  loginForm.addEventListener("submit", (e) => {
+    e.preventDefault(); // Prevent form from submitting normally
+
+    // Simulate a login process (you can add real backend functionality here)
+    const loginUsername = document.querySelector("#loginUsername").value;
+    const loginPassword = document.querySelector("#loginPassword").value;
+
+    // Check if all fields are filled (simple validation)
+    if (loginUsername && loginPassword) {
+      console.log("User logged in with:", { loginUsername, loginPassword });
+
+      // Redirect to the profile page after successful login
+      setTimeout(() => {
+        window.location.href = "profilepage.html"; // Replace with the actual profile page URL
+      }, 1000); // Optional delay for UX
+
+      // After some time on the profile page, redirect back to the landing page
+      setTimeout(() => {
+        window.location.href = "index.html"; // Replace with the landing page URL
+      }, 5000); // Time to stay on profile page before redirecting back
+    } else {
+      alert("Please fill all fields!");
+    }
+  });
+
+  // Handle panel switch (Sign In/Sign Up toggle)
+  sign_up_btn.addEventListener("click", () => {
+    container.classList.add("sign-up-mode");
+  });
+
+  sign_in_btn.addEventListener("click", () => {
+    container.classList.remove("sign-up-mode");
+  });
+</script>
+      
+  </body>
+</html>

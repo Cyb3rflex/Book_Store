@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="profile.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+
+    <!-- Profile Page Container -->
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <img src="images/1000561303.jpg" alt="Profile Picture" class="profile-image">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <h1>John Doe</h1>
+            <p class="email">john.doe@example.com</p>
+        </div>
+
+        <!-- Profile Details -->
+        <div class="profile-details">
+            <h2>Personal Information</h2>
+            <div class="detail-item">
+                <strong>Full Name:</strong> <span>John Doe</span>
+            </div>
+            <div class="detail-item">
+                <strong>Email:</strong> <span>john.doe@example.com</span>
+            </div>
+            <div class="detail-item">
+                <strong>Phone Number:</strong> <span>+123456789</span>
+            </div>
+            <div class="detail-item">
+                <strong>Address:</strong> <span>123 Main Street, City, Country</span>
+            </div>
+
+            <h2>Account Settings</h2>
+            <div class="detail-item">
+                <a href="changepass.html"><ion-icon name="shield-checkmark-outline"></ion-icon>Change Password</a>
+            </div>
+            <div class="detail-item">
+                <a href="editprofile.html"><ion-icon name="create-outline"></ion-icon>Edit Profile</a>
+            </div>
+            <div class="detail-item">
+                <a href="logout.html"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
